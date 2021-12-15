@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import NavBar from '/Users/scott/Documents/workspace/churchwebapp/src/components/Header/Navbar.js';
+import Banner from '/Users/scott/Documents/workspace/churchwebapp/src/components/Body/Banner.js';
+import Join from '/Users/scott/Documents/workspace/churchwebapp/src/components/Body/Join';
+import Footer from '/Users/scott/Documents/workspace/churchwebapp/src/components/Body/Footer';
 function App() {
   return (
+
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <Banner/>
+      <Join/>
+      <Footer/>
     </div>
   );
 }
