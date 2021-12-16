@@ -1,9 +1,9 @@
 
 import './App.css';
-import NavBar from '/Users/scott/Documents/workspace/churchwebapp/src/components/Header/Navbar.js';
-import Banner from '/Users/scott/Documents/workspace/churchwebapp/src/components/Body/Banner.js';
-import Join from '/Users/scott/Documents/workspace/churchwebapp/src/components/Body/Join';
-import Footer from '/Users/scott/Documents/workspace/churchwebapp/src/components/Body/Footer';
+import NavBar from './components/Header/Navbar.js';
+import Banner from './components/Body/Banner.js';
+import Join from './components/Body/Join';
+import Footer from './components/Body/Footer';
 function App() {
   return (
 

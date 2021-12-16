@@ -1,5 +1,5 @@
 import React from "react";
-import backgrounds from "/Users/scott/Documents/workspace/churchwebapp/src/assets/churchname.png";
+import backgrounds from "../../assets/churchname.png";
 
 class Banner extends React.Component {
 render (){

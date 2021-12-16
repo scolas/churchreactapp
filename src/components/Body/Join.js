@@ -1,5 +1,5 @@
 import React from "react";
-import bimage from "/Users/scott/Documents/workspace/churchwebapp/src/assets/2.png";
+import bimage from "../../assets/2.png";
 
 class Join extends React.Component {
 render (){
