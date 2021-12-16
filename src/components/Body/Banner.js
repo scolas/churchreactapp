@@ -6,7 +6,7 @@ render (){
     
     return(
 
-    <div className="p-12">
+    <div className="p-5">
         <img src={backgrounds} alt="Logo" />
         <br/>
     </div>
