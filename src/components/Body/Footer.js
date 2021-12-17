@@ -5,27 +5,27 @@ render (){
     
     return(
 <footer class="bg-red-600 text-white-100">
-    <div class="mx-6 py-1  md:text-center">
+    <div class="mx-6   md:text-center">
     
       <h6 class="
             uppercase
             font-semibold
-            mb-4
+            
             justify-center
             md:justify-start
           ">
 
-          <span>L'EGLISE PENTECOTE DE LA NOUVELLE GENERATION</span>
+          <span class="text-xs">L'EGLISE PENTECOTE DE LA NOUVELLE GENERATION</span>
         </h6>
     </div>
-    <div class="text-center p-1">
-        <span>
+    <div class="text-center ">
+        <span class="text-xs">
 
           Bridgeport, CT 06605, US
           </span> 
     </div>  
     <div class="justify-center">
-      <span> 
+      <span class="text-xs"> 
           info@example.com
         </span>
      </div>   
@@ -50,8 +50,8 @@ render (){
         </div>
    
  
-  <div class="text-center p-6 bg-red-600">
-    <span>© 2022 Copyright</span>
+  <div class="text-center  bg-red-600">
+    <span class="text-xs">© 2022 Copyright</span>
   </div>
 </footer>
     
